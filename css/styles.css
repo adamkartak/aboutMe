@@ -220,7 +220,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 30vh;
+  height: auto;
   width: 20vw;
   background-color: #f09c67;
   padding: 0 1vw;
@@ -236,6 +236,12 @@ h3 {
 
 .project-thumb > img {
   width: 100%;
+}
+
+@media only screen and (max-width : 1024px) {
+  .project-item {
+    width: 30vw;
+  }
 }
 
 @media (max-width: 600px) {
